@@ -4,10 +4,10 @@
 # correct number. After each incorrect guess, display "Too High" or "Too Low". Finally display 
 # the number of attempts taken.
 
-#import random
+import random
 
-#secret_number = random.randint(1, 100)
-secret_number = 42 
+secret_number = random.randint(1, 100)
+#secret_number = 42 
 attempts = 0
 
 while True:
